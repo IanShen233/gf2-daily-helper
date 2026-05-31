@@ -1,13 +1,13 @@
 // 本地运行入口文件
 
-import crypto from 'crypto';
 import { loginPayload, DailyTask } from './service';
 
 // =================== 配置区域 ===================
 // 请在这里填写你的账号信息
 const CONFIG = {
-    ACCOUNT_NAME: 'your_account_name_here',  // 你的账号名（手机号或邮箱）
-    PASSWORD: 'your_password_here',          // 你的密码（明文密码）
+    ACCOUNT_NAME: '13218997858',  // 你的账号名（手机号或邮箱）
+    PASSWORD: 'Ianshen123!',          // 你的密码（明文密码）
+    ENCRYPTION_KEY: 'a86a86^oH$04r6A1',  // AES加密密钥（动态获取失败时的备用密钥，可留空依赖自动获取）
 };
 // ===============================================
 
@@ -23,7 +23,8 @@ async function main(): Promise<void> {
 
     const userPayload: loginPayload = {
         account_name: CONFIG.ACCOUNT_NAME,
-        passwd: crypto.createHash('md5').update(CONFIG.PASSWORD).digest('hex'),
+        passwd: CONFIG.PASSWORD,
+        encryption_key: CONFIG.ENCRYPTION_KEY || undefined,
     };
 
     try {

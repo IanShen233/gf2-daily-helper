@@ -7,7 +7,7 @@
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
 		"build": "npm run clean && tsc",
-		"clean": "rm -rf dist",
+		"clean": "if exist dist rmdir /s /q dist",
 		"local": "tsx src/index-local.ts"
 	},
 	"devDependencies": {

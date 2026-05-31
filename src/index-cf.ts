@@ -1,12 +1,12 @@
 // Cloudflare Worker Paid Plan Entrypoint
 
-import crypto from 'crypto';
 import { loginPayload, DailyTask } from './service';
 import { ExecutionContext } from '@cloudflare/workers-types';
 
 export interface Env {
 	PASSWORD: string;
 	ACCOUNT_NAME: string;
+	ENCRYPTION_KEY?: string;
 }
 
 export default {
@@ -17,7 +17,8 @@ export default {
 	async scheduled(event: Event, env: Env, ctx: ExecutionContext): Promise<Response> {
 		const userPayload: loginPayload = {
 			account_name: env.ACCOUNT_NAME,
-			passwd: crypto.createHash('md5').update(env.PASSWORD).digest('hex'),
+			passwd: env.PASSWORD,
+			encryption_key: env.ENCRYPTION_KEY,
 		};
 
 		await DailyTask(userPayload);
