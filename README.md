@@ -1,13 +1,12 @@
 # gf2-daily-helper
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/chesha1/gf2-daily-helper)
 
-> [!IMPORTANT]
-> 本脚本目前已失效，相关说明见 [issue #163](https://github.com/chesha1/gf2-daily-helper/issues/163)。  
-> 由于本人已经退游，项目后续将不再维护。感谢大家一直以来的使用与理解。
+> [!CAUTION]
+> 本项目基于 (https://github.com/chesha1/gf2-daily-helper) 修改，原作者已停止维护。本人仅修复了相关问题
+> 本项目继续遵循 GPL-3.0 许可证。
 
 Girls' Frontline 2 Exilium Official Community Check-in Helper
 
-[少前 2 国服官网社区](https://gf2-bbs.sunborngame.com/)每日任务助手
+[少前 2 国服官网社区](gf2-bbs.exiliumgf.com)每日任务助手
 
 自动化完成签到、获取积分、兑换物品，部署到云厂商的 serverless 服务上，可以实现全自动完成任务
 
