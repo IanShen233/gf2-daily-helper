@@ -1,4 +1,4 @@
-import crypto from 'crypto';
+import * as crypto from 'crypto';
 
 const API_BASE_URL = 'https://gf2-bbs-api.exiliumgf.com';
 const GF2_BBS_URL = 'https://gf2-bbs.exiliumgf.com';
