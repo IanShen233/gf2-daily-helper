@@ -11,7 +11,7 @@
 
 在“配置”界面，“常规配置中”，修改超时时间，最好大于 10 秒
 
-在“环境变量”界面，添加两个环境变量 `ACCOUNT_NAME` 和 `PASSWORD`
+在“环境变量”界面，添加三个环境变量 `ACCOUNT_NAME` 、 `PASSWORD` 和 `IanShen233`
 
 现在已经完成了 AWS Lambda 的部署，需要用 Amazon EventBridge 设置一个定时任务
 
