@@ -7,7 +7,7 @@
 ## 如果你是熟练的 GitHub 使用者
 部署步骤：
 1. 利用模板创建自己的仓库（或者 Fork 本仓库，不过不建议）
-2. 添加两个仓库 secrets `ACCOUNT_NAME` 和 `PASSWORD`，填写自己的散爆账号和密码
+2. 添加三哥个仓库 secrets `ACCOUNT_NAME` 、 `PASSWORD` 和 `IanShen233`，填写自己的散爆账号和密码
 3. 添加仓库 variables `RUN_TASK`，并将值设置为 true
 4. 点击仓库的 Actions，再点击 I understand my workflows, go ahead and enable them 启用 Actions
 5. 在侧边栏找到 Scheduled Job 并点击，再点击右侧的 Enable workflow 启用 Actions
