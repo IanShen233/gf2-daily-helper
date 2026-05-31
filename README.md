@@ -1,7 +1,7 @@
 # gf2-daily-helper
 
 > [!CAUTION]
-> 本项目基于 (https://github.com/chesha1/gf2-daily-helper) 修改，原作者已停止维护。本人仅修复了相关问题
+> 本项目基于 (https://github.com/chesha1/gf2-daily-helper) 修改，原作者已停止维护。本人仅修复了相关问题    
 > 本项目继续遵循 GPL-3.0 许可证。
 
 Girls' Frontline 2 Exilium Official Community Check-in Helper
