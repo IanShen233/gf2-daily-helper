@@ -10,7 +10,7 @@
 
 运行时选择 Node.js 18.15（如果有更加新的 Node.js 的版本请选择更新的版本），然后完成创建
 
-到 [Release 界面](https://github.com/chesha1/gf2-daily-helper/releases)下载 `deploy-huawei-cloud.zip`
+到 [Release 界面](https://github.com/IanShen233/gf2-daily-helper/releases)下载 `deploy-huawei-cloud.zip`
 
 在创建好的函数中的“代码”界面右上角，选择“上传自”“Zip文件”，上传刚才下载好的 `deploy-huawei-cloud.zip`
 
