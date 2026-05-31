@@ -18,7 +18,7 @@
 		"rootDir": "./src"
 	},
 	"include": [
-		"src/index-huawei-cloud.ts"
+		"src/index.ts"
 	],
 	"exclude": [
 		"node_modules",
